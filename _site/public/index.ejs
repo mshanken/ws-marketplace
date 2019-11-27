@@ -1,14 +1,187 @@
 <div class="row">
-	<div class="col-sm-12 jumbotron">
-		<h1 class="display-3">Hello, world!</h1>
-		<p class="lead">This is HTML5 Boilerplate to use along with harp-boilerplate</p>
-		<a href="/" class="btn btn-primary btn-lg" role="button" aria-pressed="true">Learn more</a>
+	<div class="col-12">
+		<h2>Discover the "Good Life" in WS Marketplace:<br>Join a wine club. Shop wine accessories and gifts. Plan your next wine tour or vacation. Sell your wine collection. Explore real estate, and more!</h2>
 	</div>
 </div>
-<div class="row">
-	<div class="col-sm-4 offset-sm-2"><%- partial("_homepage/html5bp") %></div>
-	<div class="col-sm-4"><%- partial("_homepage/bootstrap") %></div>
+<div class="row vertical-divider justify-content-center">
+	<div class="col-md-6 col-xl-4 shadow-sm">
+		<%- partial("_themes/default/content-handler",
+			{
+				image_src: "California-Wine-Club.png",
+				image_alt: "California Wine Club",
+				image_url: "https://www.cawineclub.com/",
+				link_title: "California Wine Club",
+				yield: partial("_homepage/California_Wine_Club")
+			})
+		%>
+	</div>
+	<div class="col-md-6 col-xl-4 shadow-sm">
+		<%- partial("_themes/default/content-handler",
+			{
+				image_src: "Gundlach.jpg",
+				image_alt: "Gundlach Bundschu",
+				image_url: "https://www.gunbun.com/wine-gift-sets/",
+				link_title: "Gundlach Bundschu",
+				yield: partial("_homepage/Gundlach_Bundschu")
+			})
+		%>
+	</div>
+	<div class="col-md-6 col-xl-4 shadow-sm">
+		<%- partial("_themes/default/content-handler",
+			{
+				image_src: "none.jpg",
+				image_alt: "Lake Side Emotions",
+				image_url: "https://www.facebook.com/lake.side.emotions/?rf=427398784110495",
+				link_title: "Lake Side Emotions",
+				yield: partial("_homepage/Lake_Side_Emotions")
+			})
+		%>
+	</div>
+	<div class="col-md-6 col-xl-4 shadow-sm">
+		<%- partial("_themes/default/content-handler",
+			{
+				image_src: "none.jpg",
+				image_alt: "Belmont Wine Exchange",
+				image_url: "https://www.belmontwine.com/",
+				link_title: "Belmont Wine Exchange",
+				yield: partial("_homepage/Belmont_Wine_Exchange")
+			})
+		%>
+	</div>
+	<div class="col-md-6 col-xl-4 shadow-sm">
+		<%- partial("_themes/default/content-handler",
+			{
+				image_src: "none.jpg",
+				image_alt: "TK Wine",
+				image_url: "https://www.tkwine.com/",
+				link_title: "TK Wine",
+				yield: partial("_homepage/TK_Wine")
+			})
+		%>
+	</div>
+	<div class="col-md-6 col-xl-4 shadow-sm">
+		<%- partial("_themes/default/content-handler",
+			{
+				image_src: "oenovaults.jpg",
+				image_alt: "Oeno Vaults",
+				image_url: "https://www.oenovaults.com/",
+				link_title: "Oeno Vaults",
+				yield: partial("_homepage/Oeno_Vaults")
+			})
+		%>
+	</div>
+	<div class="col-md-6 col-xl-4 shadow-sm">
+		<%- partial("_themes/default/content-handler",
+			{
+				image_src: "none.jpg",
+				image_alt: "Martin Randall Travel",
+				image_url: "http://martinrandall.com",
+				link_title: "Martin Randall Travel",
+				yield: partial("_homepage/Martin_Randall_Travel")
+			})
+		%>
+	</div>
+	<div class="col-md-6 col-xl-4 shadow-sm">
+		<%- partial("_themes/default/content-handler",
+			{
+				image_src: "none.jpg",
+				image_alt: "Cellaraiders",
+				image_url: "http://cellaraiders.com",
+				link_title: "Cellaraiders",
+				yield: partial("_homepage/Cellaraiders")
+			})
+		%>
+	</div>
+
+
+
+	<div class="col-md-6 col-xl-4 shadow-sm">
+		<%- partial("_themes/default/content-handler",
+			{
+				image_src: "none.jpg",
+				image_alt: "JJ Buckley",
+				image_url: "http://jjbuckley.com/sell",
+				link_title: "JJ Buckley",
+				yield: partial("_homepage/JJ_Buckley")
+			})
+		%>
+	</div>
+	<div class="col-md-6 col-xl-4 shadow-sm">
+		<%- partial("_themes/default/content-handler",
+			{
+				image_src: "none.jpg",
+				image_alt: "Simonit & Sirch",
+				image_url: "http://simonitesirch.com",
+				link_title: "Simonit & Sirch",
+				yield: partial("_homepage/Simonit_and_Sirch")
+			})
+		%>
+	</div>
+	<div class="col-md-6 col-xl-4 shadow-sm">
+		<%- partial("_themes/default/content-handler",
+			{
+				image_src: "none.jpg",
+				image_alt: "Dry Creek Valley Winery Sale",
+				image_url: "http://drycreekava.com",
+				link_title: "Dry Creek Valley Winery Sale",
+				yield: partial("_homepage/Dry_Creek_Valley_Winery_Sale")
+			})
+		%>
+	</div>
+	<div class="col-md-6 col-xl-4 shadow-sm">
+		<%- partial("_themes/default/content-handler",
+			{
+				image_src: "none.jpg",
+				image_alt: "CHILLOUT Wine Cooler",
+				image_url: "http://www.wendysmarketplace.com",
+				link_title: "CHILLOUT Wine Cooler",
+				yield: partial("_homepage/CHILLOUT_Wine_Cooler")
+			})
+		%>
+	</div>
+	<div class="col-md-6 col-xl-4 shadow-sm">
+		<%- partial("_themes/default/content-handler",
+			{
+				image_src: "none.jpg",
+				image_alt: "Mai Tai Pie Sunsets Home Rental",
+				image_url: "",
+				link_title: "Mai Tai Pie Sunsets Home Rental",
+				yield: partial("_homepage/Mai_Tai_Pie_Sunsets_Home_Rental")
+			})
+		%>
+	</div>
+	<div class="col-md-6 col-xl-4 shadow-sm">
+		<%- partial("_themes/default/content-handler",
+			{
+				image_src: "none.jpg",
+				image_alt: "California Wine Tour Services",
+				image_url: "",
+				link_title: "California Wine Tour Services",
+				yield: partial("_homepage/California_Wine_Tour_Services")
+			})
+		%>
+	</div>
+	<div class="col-md-6 col-xl-4 shadow-sm">
+		<%- partial("_themes/default/content-handler",
+			{
+				image_src: "none.jpg",
+				image_alt: "Italia Dolce Vita",
+				image_url: "http://www.ItaliaDolceVita.com",
+				link_title: "Italia Dolce Vita",
+				yield: partial("_homepage/Italia_Dolce_Vita")
+			})
+		%>
+	</div>
+	<div class="col-md-6 col-xl-4 shadow-sm">
+		<%- partial("_themes/default/content-handler",
+			{
+				image_src: "none.jpg",
+				image_alt: "Bordeaux Wine Experience",
+				image_url: "http://www.BXWINE.com",
+				link_title: "Bordeaux Wine Experience",
+				yield: partial("_homepage/Bordeaux_Wine_Experience")
+			})
+		%>
+	</div>
 </div>
-<div class="row">
-	<div class="col-sm-8 offset-sm-2"><%- partial("_homepage/harpjs") %></div>
-</div>
+
