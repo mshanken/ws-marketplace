@@ -1,16 +1,16 @@
 {
   "globals": {
-    "title": "Your website globals",
-    "site_tagline":"Your site tagline 1",
+    "title": "Wine Spectator Market Place",
+    "site_tagline":"Discover the \"Good Life\" in WS Marketplace: Join a wine club. Shop wine accessories and gifts. Plan your next wine tour or vacation.  Sell your wine collection. Explore real estate, and more!",
     "subject":"",
-    "url": "www.yoursite.com",
-    "description": "Your site meta description",
-    "keywords": "your, tags",
+    "url": "marketplace.winespectator.com",
+    "description": "Discover the \"Good Life\" in WS Marketplace: Join a wine club. Shop wine accessories and gifts. Plan your next wine tour or vacation.  Sell your wine collection. Explore real estate, and more!",
+    "keywords": "Discover the Good Life, Join a wine club, Shop wine accessories and gifts, Plan your next wine tour or vacation, Sell your wine collection, Explore real estate",
     "copyright": "M. Shanken Communications, Inc.",
-    "name": "project name",
+    "name": "Market Place",
     "email": "dev@mshanken.com",
     "layout": "false",
-    "ga": false,
+    "ga": true,
     "analytics": "you-UA-code-here",
     "dfp": false,
     "openGraph": false,
