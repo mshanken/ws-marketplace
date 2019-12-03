@@ -151,6 +151,7 @@ $sizes: map-merge(
     15: 15%,
     25: 25%,
     50: 50%,
+    60: 60%,
     75: 75%,
     100: 100%,
     80: 80px,
@@ -253,8 +254,8 @@ $transition-collapse:         height .35s ease !default;
 // Font, line-height, and color for body text, headings, and more.
 
 // stylelint-disable value-keyword-case
-@import url('https://fonts.googleapis.com/css?family=Lora');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 
 $font-family-sans-serif:      "Open Sans",  Roboto, "Helvetica Neue", Arial, sans-serif !default;
 $font-family-serif:           "Lora", "Georgia", "Times-serif", serif !default;
