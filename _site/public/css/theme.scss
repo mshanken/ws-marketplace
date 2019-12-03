@@ -16,7 +16,14 @@
 // Custom style starts here
 // --------------------------------------------------
 
-
+.btn:not(:disabled):not(.disabled) {
+    cursor: initial;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: $red;
+    border-color: $red;
+}
 .header, .footer{
 	background-color: $red;
 }
