@@ -2,16 +2,16 @@
 /* TEAM */
 
                             
-Your title: Your name.
+Your title: Edisn A. Leon.
 
                             
-Site: email, link to a contact form, etc.
+Site: marketplace.winespectator.com.
 
                             
-Twitter: your Twitter username.
+Twitter: @winespectator.
 
                             
-Location: City, Country.
+Location: New York, NY.
 
                          
                  
@@ -22,7 +22,7 @@ Location: City, Country.
 /* THANKS */
 
 							
-Name: name or url
+Name: M. Shanken Communications, Inc.
 
 						
                  
@@ -33,13 +33,13 @@ Name: name or url
 /* SITE */
 
                             
-Last update: YYYY/MM/DD 
+Last update: 2019/12/3 
 
                             
-Standards: HTML5, CSS3,..
+Standards: HTML5, CSS3, JS
 
                             
-Components: Modernizr, jQuery, etc.
+Components: Modernizr, Bootstrap4, github pages, HarpJS.
 
                             
 Software: Software used for the development
