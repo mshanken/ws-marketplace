@@ -5,9 +5,9 @@
 	        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-	        ga('create', '<%- analytics %>', 'winespectator.com');
+	        ga('create', '<%- analytics %>', 'marketplace.winespectator.com');
 	        ga('require', 'linkid', 'linkid.js');
-	        // ga('send', {"hitType":"pageview","page": "<%- current.source %>" ,"dimension1":"<%- current.path[0] %>","dimension3":"marketplace"});
-	        ga('send', {"hitType":"pageview","page": "marketplace.winespectator.com", "dimension1":"ws-marketplace","dimension3":"marketplace"});
+	        ga('send', {"hitType":"pageview","page": "ws-marketplace" ,"dimension1":"<%- current.path[0] %>","dimension3":"marketplace"});
+	        // ga('send', {"hitType":"pageview","page": "marketplace.winespectator.com", "dimension1":"ws-marketplace","dimension3":"marketplace"});
 	    </script>
 	    <!-- End Google Analytics -->
