@@ -1,14 +1,14 @@
-<div class="card py-3 text-center position-relative">
-	<% if ( tag !== "") { %>
-		<div class="card-body">
-			<button type="button" class="btn btn-primary"><%- tag %></button>
-		</div>
-	<% } %>
-  	<% if ( image_src !== "none.jpg") { %>
-		<a href="<%- image_url %>" title="<%- link_title %>">
-		  	<img class="card-img-top" src="images/<%- image_src %>" alt="<%- image_alt %>" title="<%- image_alt %>">
-		</a>
-  	<% } %>
+<div class="card py-3 text-center">
+<% if ( tag !== "") { %>
+	<div class="card-body">
+		<button type="button" class="btn btn-primary"><%- tag %></button>
+	</div>
+<% } %>
+<% if ( image_src !== "none.jpg") { %>
+	<a href="<%- image_url %>" title="<%- link_title %>">
+	  	<img class="card-img-top w-60" src="images/<%- image_src %>" alt="<%- image_alt %>" title="<%- image_alt %>">
+	</a>
+<% } %>
 	<div class="card-body">
 		<%- yield %>
 	</div>
