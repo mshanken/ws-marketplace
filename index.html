@@ -61,14 +61,16 @@
 
 	    
 	    			<!-- Google Analytics -->
-	    <script>
+		<script>
 	        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-	        // Change "addyoursite" the name of your web site
-	        ga('create', 'you-UA-code-here', 'addyoursite');
-	        ga('send', {"hitType":"pageview","page":"index", "section":"index"});
+	        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	        ga('create', 'UA-23484466-20', 'winespectator.com');
+	        ga('require', 'linkid', 'linkid.js');
+	        // ga('send', {"hitType":"pageview","page": "index" ,"dimension1":"index","dimension3":"marketplace"});
+	        ga('send', {"hitType":"pageview","page": "marketplace.winespectator.com", "dimension1":"ws-marketplace","dimension3":"marketplace"});
 	    </script>
 	    <!-- End Google Analytics -->
 	    
@@ -100,7 +102,7 @@
 	</div>
 </div>
 <div class="row mt-5">
-	<div class="col-md-6 col-xl-4 d-flex align-items-center">
+	<div class="col-md-6 col-xl-4 d-flex align-items-stretch">
 		<div class="card py-3 text-center">
 
 	<div class="card-body">
@@ -108,13 +110,13 @@
 	</div>
 
 
-	<a href="https://www.cawineclub.com/" title="California Wine Club">
+	<a href="https://www.cawineclub.com/" title="California Wine Club" onclick="ga('send', 'event', 'OutBoundLinks', 'https://www.cawineclub.com/', 'California Wine Club')">
 	  	<img class="card-img-top w-60" src="images/California-Wine-Club.png" alt="California Wine Club" title="California Wine Club">
 	</a>
 
 	<div class="card-body">
-		<h3>California Wine Club</h3><p><strong>When Quality Matters:</strong> <br>
-Trust The California Wine Club to impress your gift recipients with authentic, artisan wine. </p>
+		<h3><a href="https://www.cawineclub.com/" target="_blank" onclick="ga('send', 'event', 'OutBoundLinks', 'https://www.cawineclub.com/', 'California Wine Club')">California Wine Club</a></h3><p><strong>When Quality Matters:</strong><br>
+Trust The California Wine Club to impress your gift recipients with authentic, artisan wine.</p>
 <p><strong><a href="https://www.cawineclub.com/">cawineclub.com</a> |</strong>
 <strong>p: 1-800-777-4443</strong><br>
 <small><strong>(Void where prohibited.)</strong></small></p>
@@ -123,7 +125,7 @@ Trust The California Wine Club to impress your gift recipients with authentic, a
 </div>
 
 	</div>
-	<div class="col-md-6 col-xl-4 d-flex align-items-center border-md border-xl">
+	<div class="col-md-6 col-xl-4 d-flex align-items-stretch border-md border-xl">
 		<div class="card py-3 text-center">
 
 	<div class="card-body">
@@ -131,7 +133,7 @@ Trust The California Wine Club to impress your gift recipients with authentic, a
 	</div>
 
 
-	<a href="https://www.gunbun.com/wine-gift-sets/" title="Gundlach Bundschu">
+	<a href="https://www.gunbun.com/wine-gift-sets/" title="Gundlach Bundschu" onclick="ga('send', 'event', 'OutBoundLinks', 'https://www.gunbun.com/wine-gift-sets/', 'Gundlach Bundschu')">
 	  	<img class="card-img-top w-60" src="images/Gundlach.jpg" alt="Gundlach Bundschu" title="Gundlach Bundschu">
 	</a>
 
@@ -145,7 +147,7 @@ Use code WINESPEC for $5 Shipping. Visit gunbun.com/holiday</p>
 
 	</div>
 	<div class="w-100 py-md-20 d-none d-md-block d-xl-none"></div>
-	<div class="col-md-6 col-xl-4 d-flex align-items-center">
+	<div class="col-md-6 col-xl-4 d-flex align-items-stretch">
 		<div class="card py-3 text-center">
 
 	<div class="card-body">
@@ -153,7 +155,7 @@ Use code WINESPEC for $5 Shipping. Visit gunbun.com/holiday</p>
 	</div>
 
 
-	<a href="http://martinrandall.com" title="Martin Randall Travel">
+	<a href="http://martinrandall.com" title="Martin Randall Travel" onclick="ga('send', 'event', 'OutBoundLinks', 'http://martinrandall.com', 'Martin Randall Travel')">
 	  	<img class="card-img-top w-60" src="images/martin-randall-travel-814.jpg" alt="Martin Randall Travel" title="Martin Randall Travel">
 	</a>
 
@@ -167,7 +169,7 @@ Our wine tours focus on the classic wine regions of France and Italy. Each visit
 
 	</div>
 	<div class="w-100 py-md-20 py-xl-25 d-none d-xl-block"></div>
-	<div class="col-md-6 col-xl-4 d-flex align-items-center border-md">
+	<div class="col-md-6 col-xl-4 d-flex align-items-stretch border-md">
 		<div class="card py-3 text-center">
 
 	<div class="card-body">
@@ -187,7 +189,7 @@ Contact us for a free appraisal. Sell outright for immediate payment or consign 
 
 	</div>
 	<div class="w-100 py-md-20 d-none d-md-block d-xl-none"></div>
-	<div class="col-md-6 col-xl-4 d-flex align-items-center border-xl">
+	<div class="col-md-6 col-xl-4 d-flex align-items-stretch border-xl">
 		<div class="card py-3 text-center">
 
 	<div class="card-body">
@@ -195,7 +197,7 @@ Contact us for a free appraisal. Sell outright for immediate payment or consign 
 	</div>
 
 
-	<a href="https://www.tkwine.com/" title="TK Wine">
+	<a href="https://www.tkwine.com/" title="TK Wine" onclick="ga('send', 'event', 'OutBoundLinks', 'https://www.tkwine.com/', 'TK Wine')">
 	  	<img class="card-img-top w-60" src="images/tkwinecom.jpg" alt="TK Wine" title="TK Wine">
 	</a>
 
@@ -211,7 +213,7 @@ Immediate Payment, Maximum Price. Upfront, same-day payment option available! No
 </div>
 
 	</div>
-	<div class="col-md-6 col-xl-4 d-flex align-items-center border-md">
+	<div class="col-md-6 col-xl-4 d-flex align-items-stretch border-md">
 		<div class="card py-3 text-center">
 
 	<div class="card-body">
@@ -219,7 +221,7 @@ Immediate Payment, Maximum Price. Upfront, same-day payment option available! No
 	</div>
 
 
-	<a href="https://www.oenovaults.com/" title="Oeno Vaults">
+	<a href="https://www.oenovaults.com/" title="Oeno Vaults" onclick="ga('send', 'event', 'OutBoundLinks', 'https://www.oenovaults.com/', 'Oeno Vaults')">
 	  	<img class="card-img-top w-60" src="images/oenovaults.jpg" alt="Oeno Vaults" title="Oeno Vaults">
 	</a>
 
@@ -234,7 +236,7 @@ Located in Sonoma County. </p>
 
 	</div>
 	<div class="w-100 py-md-20 py-xl-25 d-none d-md-block"></div>
-	<div class="col-md-6 col-xl-4 d-flex align-items-center">
+	<div class="col-md-6 col-xl-4 d-flex align-items-stretch">
 		<div class="card py-3 text-center">
 
 	<div class="card-body">
@@ -251,7 +253,7 @@ From small producers to hard to find. Special order, corporate and party welcome
 </div>
 
 	</div>
-	<div class="col-md-6 col-xl-4 d-flex align-items-center border-md border-xl">
+	<div class="col-md-6 col-xl-4 d-flex align-items-stretch border-md border-xl">
 		<div class="card py-3 text-center">
 
 	<div class="card-body">
@@ -269,7 +271,7 @@ Full collection bid upon. Immediate response. I will travel to you. Toll free 1-
 
 	</div>
 	<div class="w-100 py-md-20 d-none d-md-block d-xl-none"></div>
-	<div class="col-md-6 col-xl-4 d-flex align-items-center">
+	<div class="col-md-6 col-xl-4 d-flex align-items-stretch">
 		<div class="card py-3 text-center">
 
 	<div class="card-body">
@@ -288,7 +290,7 @@ Weâ€™ll buy your wines outright! Competitive offers, no minimums, fast payment â
 
 	</div>
 	<div class="w-100 py-md-20 py-xl-25 d-none d-xl-block"></div>
-	<div class="col-md-6 col-xl-4 d-flex align-items-center border-md">
+	<div class="col-md-6 col-xl-4 d-flex align-items-stretch border-md">
 		<div class="card py-3 text-center">
 
 	<div class="card-body">
@@ -305,7 +307,7 @@ Weâ€™ll buy your wines outright! Competitive offers, no minimums, fast payment â
 
 	</div>
 	<div class="w-100 py-md-20 d-none d-md-block d-xl-none"></div>
-	<div class="col-md-6 col-xl-4 d-flex align-items-center border-xl">
+	<div class="col-md-6 col-xl-4 d-flex align-items-stretch border-xl">
 		<div class="card py-3 text-center">
 
 	<div class="card-body">
@@ -321,7 +323,7 @@ Weâ€™ll buy your wines outright! Competitive offers, no minimums, fast payment â
 </div>
 
 	</div>
-	<div class="col-md-6 col-xl-4 d-flex align-items-center border-md">
+	<div class="col-md-6 col-xl-4 d-flex align-items-stretch border-md">
 		<div class="card py-3 text-center">
 
 	<div class="card-body">
@@ -338,7 +340,7 @@ Weâ€™ll buy your wines outright! Competitive offers, no minimums, fast payment â
 
 	</div>
 	<div class="w-100 py-md-20 py-xl-25 d-none d-md-block"></div>
-	<div class="col-md-6 col-xl-4 d-flex align-items-center">
+	<div class="col-md-6 col-xl-4 d-flex align-items-stretch">
 		<div class="card py-3 text-center">
 
 	<div class="card-body">
@@ -355,7 +357,7 @@ Located in Marin County near the Golden Gate Bridge/San Francisco Bay Area. Near
 </div>
 
 	</div>
-	<div class="col-md-6 col-xl-4 d-flex align-items-center border-md border-xl">
+	<div class="col-md-6 col-xl-4 d-flex align-items-stretch border-md border-xl">
 		<div class="card py-3 text-center">
 
 	<div class="card-body">
@@ -374,7 +376,7 @@ Contact Bill, <a href="mailto:bill@valleytours.wine">bill@valleytours.wine</a> o
 
 	</div>
 	<div class="w-100 py-md-20 d-none d-md-block d-xl-none"></div>
-	<div class="col-md-6 col-xl-4 d-flex align-items-center">
+	<div class="col-md-6 col-xl-4 d-flex align-items-stretch">
 		<div class="card py-3 text-center">
 
 	<div class="card-body">
@@ -392,7 +394,7 @@ Authentic Culinary &amp; Wine experiences in Italy and beyond. Let us plan your 
 
 	</div>
 	<div class="w-100 py-md-20 py-xl-25 d-none d-xl-block"></div>
-	<div class="col-md-6 col-xl-4 d-flex align-items-center border-md">
+	<div class="col-md-6 col-xl-4 d-flex align-items-stretch border-md">
 		<div class="card py-3 text-center">
 
 	<div class="card-body">
